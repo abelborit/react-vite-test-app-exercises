@@ -14,6 +14,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    /* Esto asegura que TypeScript pueda entender las definiciones de tipo proporcionadas por Jest y React Testing Library. */
+    "esModuleInterop": true,
+    "types": ["jest", "@testing-library/jest-dom"],
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
