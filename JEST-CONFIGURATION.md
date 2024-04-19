@@ -4,7 +4,7 @@
 
 ```bash
 npm install --save-dev jest babel-jest @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript ts-node
-npm install --save-dev @testing-library/react @types/jest jest-environment-jsdom react-test-renderer ts-jest @testing-library/jest-dom
+npm install --save-dev @testing-library/react @types/jest jest-environment-jsdom ts-jest @testing-library/jest-dom
 ```
 
 ### Opcional: Si usamos Fetch API en el proyecto: (si tienes versión ≥ 18 de node no es necesario porque ya viene implementada pero igual instalarla por si acaso)
