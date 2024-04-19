@@ -18,7 +18,7 @@ console.log("React version:", reactInfo.version);
 
 const mockTodo = { id: 1, name: "Tarea 01", completed: false };
 
-// let todoComponentElement: HTMLElement;
+let todoComponentElement: HTMLElement;
 let todoTitleElement: HTMLElement;
 let todoTextElement: HTMLElement;
 let todoCardElement: HTMLElement;
@@ -31,7 +31,7 @@ describe("Test <TodoComponent />", () => {
   });
 
   beforeEach(() => {
-    // todoComponentElement = screen.getByTestId("todo-testid-component");
+    todoComponentElement = screen.getByTestId("todo-testid-component");
 
     todoTitleElement = screen.getByTestId("todo-testid-title");
     todoTextElement = screen.getByTestId("todo-testid-text");
@@ -102,8 +102,8 @@ describe("Test <TodoComponent />", () => {
     }
   });
 
-  // it("should matche with the snapshot", () => {
-  //   // screen.debug();
-  //   expect(todoComponentElement).toMatchSnapshot();
-  // });
+  it("should matche with the snapshot", () => {
+    // screen.debug();
+    expect(todoComponentElement).toMatchSnapshot();
+  });
 });

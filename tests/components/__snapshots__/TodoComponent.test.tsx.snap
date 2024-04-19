@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TodoComponent /> should matche with the snapshot 1`] = `
+<div
+  data-testid="todo-testid-component"
+>
+  <br />
+  <hr />
+  <h3
+    data-testid="todo-testid-title"
+  >
+    This is a TodoComponent
+  </h3>
+  <p
+    data-testid="todo-testid-text"
+  >
+    This is a simple text
+  </p>
+  <div
+    data-testid="todo-testid-card-1"
+  >
+    <label
+      data-testid="todo-testid-label-1"
+    >
+      <input
+        data-testid="todo-testid-checkbox-1"
+        id="1"
+        name="Tarea 01"
+        type="checkbox"
+      />
+      1
+      . 
+      Tarea 01
+       - 
+      ❌
+    </label>
+  </div>
+  <hr />
+  <br />
+</div>
+`;
